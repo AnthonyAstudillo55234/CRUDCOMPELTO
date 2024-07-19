@@ -25,9 +25,10 @@ public class form2 extends JFrame {
         ELIMINARButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String url = "jdbc:mysql://localhost:3306/clase";
-                String username = "root";
-                String password = "123456";
+                //String url = "jdbc:mysql://localhost:3306/clase";
+                String url = "jdbc:mysql://sql10.freemysqlhosting.net/sql10720950";
+                String username = "sql10720950";
+                String password = "9IN3lSHIrx";
                 String cedula = eliminar.getText();
                 Connection conn = null;
                 PreparedStatement ps = null;

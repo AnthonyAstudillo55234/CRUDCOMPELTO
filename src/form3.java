@@ -27,9 +27,10 @@ public class form3 extends JFrame{
         ACTUALIZARButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String url="jdbc:mysql://localhost:3306/clase";
-                String user="root";
-                String password="123456";
+                //String url="jdbc:mysql://localhost:3306/clase";
+                String url = "jdbc:mysql://sql10.freemysqlhosting.net/sql10720950";
+                String user="sql10720950";
+                String password="9IN3lSHIrx";
                 float nota = Float.parseFloat(nota1.getText());
                 String cedula = actualizar.getText();
                 Connection con= null;
